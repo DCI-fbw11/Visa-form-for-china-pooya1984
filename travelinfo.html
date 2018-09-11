@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="travelinfo.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <button onclick="myFunction()"> pervious</button>
+        <script>
+            function myFunction() {
+                location.replace("occ.html")
+            }
+            </script>
+        <a href="index.html">1</a>
+        <a href="occ.html">2</a>
+        <a href="travelinfo.html">3</a>
+        <a href="sign.html">4</a>
+        <button onclick="myFunction2()"> next</button>
+        <script>
+            function myFunction2() {
+                location.replace("sign.html")
+            }
+            </script>
+      </header>
+        <div class="nav-bar">
+        <a href="index.html">Personal info</a>
+        <a href="occ.html">occupation</a>
+        <a href="travelinfo.html">Travel info</a>
+          <a href="sign.html">submit</a>
+       </div>
+      <div class="personal">
+        <div><form>
+      <fieldset>
+      <legend>Travel Information</legend>
+        <table>
+        <tr>
+          <th>Major purpose of your visit</th>
+          <th>
+       <div class=tr-info>
+        <div class=travel> <input type="checkbox" name="bussines" value="bussines">Official visit
+        <input type="checkbox" name="bussines" value="bussines">Tourism
+          <input type="checkbox" name="bussines" value="bussines">Non-business visit
+          <input type="checkbox" name="bussines" value="bussines">Business & Trade
+          <input type="checkbox" name="bussines" value="bussines">As introduced talent 
+          <input type="checkbox" name="bussines" value="bussines">Transit
+        </div>
+        <div class=travel> <input type="checkbox" name="bussines" value="bussines">As resident diplomat，consul or staff of nternational organization
+        <input type="checkbox" name="bussines" value="bussines">As permanent esident
+          <input type="checkbox" name="bussines" value="bussines">Work
+          <input type="checkbox" name="bussines" value="bussines">As child in foster care
+        
+              </div>
+            </div>
+            <div class="tr-info">
+             <div class=travel> <input type="checkbox" name="bussines" value="bussines">Short-term visit to Chinese citizen or
+      foreigner  with reigner with Chinese th Chinese  permanent ridence tatus</div>
+             <div class=travel> <input type="checkbox" name="bussines" value="bussines">180 days with hinese citizen or foreigner with
+      Chinese permanent residence tatus</div>
+            </div>
+            <div class=travel> <input type="checkbox" name="bussines" value="bussines">Others
+              <textarea> </textarea>
+            </div>
+          </th>
+          </tr></table>
+          <input type="submit"value="Submit">
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">1</a>
+        <a href="occ.html">2</a>
+        <a href="travelinfo.html">3</a>
+        <a href="sign.html">4</a>
+        <button onclick="myFunction()"> next</button>
+        <script>
+            function myFunction() {
+                location.replace("occ.html")
+            }
+            </script>
+      </header>
+        <div class="nav-bar">
+        <a href="index.html">Personal info</a>
+        <a href="occ.html">occupation</a>
+        <a href="travelinfo.html">Travel info</a>
+          <a href="sign.html">submit</a>
+       </div>
+      <div class="personal">
+        <div><form>
+      <fieldset>
+      <legend>Personal Information</legend>
+        <table>
+        <tr>
+          <th>Full English name<br> as passport</th>
+          <th>
+        <input type="text" id="fname" name="first name" placeholder="your first name">
+        <input type="text" id="lname" name="last name" placeholder="your last name">
+            <input type="text" id="mname" name="middle name" placeholder="your middle name"></th></tr></table>
+       <table> <tr>
+          <th><input type="text" id="chinesename" name="chinese name" placeholder="name in chinese"></th>
+          <th><input type="text" id="other name" name="other name" placeholder="Other name"></th></tr>
+        </table>
+        <table> <tr>
+          <th>
+            <input type="checkbox" name="sex" value="male">male
+          <input type="checkbox" name="sex2" value="female">female</th>
+          <th>
+            <lable>Birthday</lable>
+            <input type="date" id="Birthday" name="birthday"></th></tr>
+        </table>
+        </fieldset></form></div>
+        <div class="pic-field"><table><tr>upload your personal photo here
+          </tr><tr><img src="https://www.freeiconspng.com/uploads/id-pass-profile-icon--icon-search-engine-0.png">
+          </tr></table></div>
+        </div>
+      <div class="nationality">
+        <form>
+          <fieldset><legend>nationality</legend>
+          <input type="text" id="currentnation" placeholder="Current nationality">
+          <input type="text" id="BirthPlace" placeholder="Place of birth (city, province/state,country country)">
+          <input type="text" id="BirthPlace" placeholder="Place of birth (city, province/state,country country)">
+          </fieldset>
+      </div>
+      <input type="submit"value="Submit">
+</body>
+</html>

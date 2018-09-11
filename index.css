@@ -1,0 +1,97 @@
+header{
+    display:flex;
+    padding:1%;
+    margin:1%;
+    justify-content:space-between;
+    background-color: #ccc;
+    text-align:center;
+    border:1px solid black;
+  }
+  a:link{
+    text-decoration:none;
+    color:black;
+  }
+  a:visited {
+    color:black;
+  }
+  a:hover {
+    color:red;
+    font-size:large;
+  }
+  <div class="personal">
+    <div><form>
+  <fieldset>
+  <legend>Personal Information</legend>
+    <table>
+    <tr>
+      <th>Full English name<br> as passport</th>
+      <th>
+    <input type="text" id="fname" name="first name" placeholder="your first name">
+    <input type="text" id="lname" name="last name" placeholder="your last name">
+        <input type="text" id="mname" name="middle name" placeholder="your middle name"></th></tr></table>
+   <table> <tr>
+      <th><input type="text" id="chinesename" name="chinese name" placeholder="name in chinese"></th>
+      <th><input type="text" id="other name" name="other name" placeholder="Other name"></th></tr>
+    </table>
+    <table> <tr>
+      <th>
+        <input type="checkbox" name="sex" value="male">male
+      <input type="checkbox" name="sex2" value="female">female</th>
+      <th>
+        <lable>Birthday</lable>
+        <input type="date" id="Birthday" name="birthday"></th></tr>
+    </table>
+  header > button:hover {
+    background-color: darkgray;
+  }
+  header  >button:active {
+    transform: translateY(4px);
+  }
+  
+  
+  input[type=text], select{
+      width:100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+  }
+  input[type=submit], select{
+      width:100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+  }
+  table {
+      width:100%;
+      border-collapse: collapse;
+  }
+  
+  table, td, th {
+      border: 1px solid black;
+  }
+  .personal{display: flex;}
+  img{width:280px;}
+  
+  .nav-bar{
+    display:flex;
+    flex-direction:column;
+    float:left;
+    padding:1%;
+    margin:1%;
+    align-content:space-between;
+    text-align:center;
+    line-height: 120px;
+    background-color: #ccc;
+    border:1px solid black;
+    flex-wrap:wrap;}
+  button{
+    border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+  }

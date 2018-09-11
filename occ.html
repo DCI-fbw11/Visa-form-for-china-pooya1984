@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="occ.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <button onclick="myFunction()"> pervious</button>
+        <script>
+            function myFunction() {
+                location.replace("index.html")
+            }
+            </script>
+        <a href="index.html">1</a>
+        <a href="occ.html">2</a>
+        <a href="travelinfo.html">3</a>
+        <a href="sign.html">4</a>
+        <button onclick="myFunction2()"> next</button>
+        <script>
+            function myFunction2() {
+                location.replace("travelinfo.html")
+            }
+            </script>
+      </header>
+        <div class="nav-bar">
+        <a href="index.html">Personal info</a>
+        <a href="occ.html">occupation</a>
+        <a href="travelinfo.html">Travel info</a>
+          <a href="sign.html">submit</a>
+       </div>
+      
+      <form>
+          <fieldset>
+            <legend>current occupation(s)</legend>
+            <div class=occ-f>
+        <div class=occ> <input type="checkbox" name="bussines" value="bussines">Bussines Person
+        <input type="checkbox" name="bussines" value="bussines">Company employee
+          <input type="checkbox" name="bussines" value="bussines">Entertainer
+          <input type="checkbox" name="bussines" value="bussines">Industrial
+          <input type="checkbox" name="bussines" value="bussines">Student
+          <input type="checkbox" name="bussines" value="bussines">Unemployed
+          <input type="checkbox" name="bussines" value="bussines">Crew member
+        </div>
+        <div class=occ> <input type="checkbox" name="bussines" value="bussines">Self-employed
+        <input type="checkbox" name="bussines" value="bussines">Retired
+          <input type="checkbox" name="bussines" value="bussines">Former/incumbent member of parliament
+          <input type="text" name="position"placeholder="Position">
+          <input type="checkbox" name="bussines" value="bussines">Former/incumbent government  official
+           <input type="text" name="position"placeholder="Position">
+          <input type="checkbox" name="bussines" value="bussines">Military personnel
+           <input type="text" name="position"placeholder="Position">
+              </div></div>
+        </fieldset>
+       </form>
+      <form>
+        <fieldset><legend>Education</legend>
+         <div class="education"> <input type="checkbox" name="bussines" value="bussines">Postgraduate
+          <input type="checkbox" name="bussines" value="bussines">College
+           <input type="checkbox" name="bussines" value="bussines">Other</div>
+        </fieldset></form>
+      <form>
+        <fieldset>
+          <legend>Employer/school</legend>
+                    <div class=occ-f>
+          <div class="occ">
+            <input type="text" placeholder="Name">
+             <input type="text" placeholder="Adress">
+          </div>
+            <div class="occ">
+            <input type="text" placeholder="Phone number">
+             <input type="text" placeholder="Zip code">
+                </div>
+      </div></fieldset></form>
+      <input type="submit"value="Submit">
+</body>
+</html>

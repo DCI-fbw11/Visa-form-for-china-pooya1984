@@ -1,0 +1,70 @@
+header{
+    display:flex;
+    padding:1%;
+    margin:1%;
+    justify-content:space-between;
+    background-color: #ccc;
+    text-align:center;
+    border:1px solid black;
+  }
+  button{
+    border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+  }
+  a:link{
+    text-decoration:none;
+    color:black;
+  }
+  a:visited {
+    color:black;
+  }
+  a:hover {
+    color:red;
+    font-size:large;
+  }
+  
+  header > button:hover {
+    background-color: darkgray;
+  }
+  header  >button:active {
+    transform: translateY(4px);
+  }
+  .nav-bar{
+    display:flex;
+    flex-direction:column;
+    float:left;
+    padding:1%;
+    margin:1%;
+    align-content:space-between;
+    text-align:center;
+    line-height: 140px;
+    background-color: #ccc;
+    border:1px solid black;
+    flex-wrap:wrap;}
+  form{
+    margin:3%;
+  }
+  .occ-f{
+    width:100%;
+    display:flex;
+    
+  }
+  .occ{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    padding:1%;
+    border:1px solid black;
+  }
+  .education{
+    position:relative;
+    left:30%;}
+  input[type=submit], select{
+      width:100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
